@@ -34,15 +34,15 @@ export default function Hero() {
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15] mb-6">
-            Reliable Diesel Delivery <br />
+            Diesel Delivered to Your Doorstep <br />
             <span className="bg-gradient-to-r from-[#fbbf24] via-[#f59e0b] to-[#fef08a] bg-clip-text text-transparent">
-              at Your Doorstep
+              — Free Delivery!
             </span>
           </h1>
 
           {/* Supporting Text */}
           <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8 max-w-2xl font-normal">
-            Your trusted partner for dependable diesel fuel supply and delivery for businesses, generators, farms, and industrial operations.
+            Your trusted partner for dependable diesel fuel supply and delivery for cars, trucks, buses, tractors, generators, construction machinery, and industrial equipment.
           </p>
 
           {/* Prominent CTA Buttons */}
@@ -50,10 +50,10 @@ export default function Hero() {
             <a
               href={`tel:${businessConfig.contact.rawPhone}`}
               className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-bold text-base bg-gradient-to-r from-[#f59e0b] to-[#fbbf24] hover:from-[#d97706] hover:to-[#f59e0b] text-slate-950 shadow-xl shadow-[#f59e0b]/25 hover:shadow-[#f59e0b]/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
-              id="hero-call-now-button"
+              id="hero-order-now-button"
             >
               <Phone className="w-5 h-5 fill-slate-950 stroke-[2.5]" />
-              <span>Call Now</span>
+              <span>Order Diesel Now</span>
             </a>
 
             <a

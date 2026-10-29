@@ -60,37 +60,37 @@ export interface BusinessConfig {
 
 export const businessConfig: BusinessConfig = {
   // Replace with your official business trade name
-  businessName: "Titan Diesel Logistics",
+  businessName: "HN Fuel Supply",
   tagline: "Reliable On-Site Commercial & Industrial Diesel Fuel Delivery",
 
   owner: {
     // EDIT HERE: Owner full name
-    name: "Marcus Vance",
+    name: "HN Fuel Supply",
     // EDIT HERE: Owner title or role
-    title: "Owner & Operations Director",
+    title: "Fuel Distribution Services",
     // EDIT HERE: Number of years in fuel delivery / logistics
-    experienceYears: "15+ Years",
+    experienceYears: "Professional Service",
     // EDIT HERE: Path to owner photo in /public folder
     photo: "/images/owner-profile.jpg",
     // EDIT HERE: Short introduction about the owner
     shortBio:
-      "With over a decade and a half in commercial fuel logistics, Marcus Vance established Titan Diesel Logistics to deliver dependable, owner-supervised diesel fuel distribution directly to job sites, backup power generators, and agricultural operations.",
+      "HN Fuel Supply provides dependable diesel fuel distribution directly to job sites, backup power generators, vehicles, and agricultural operations with professional service and reliable delivery.",
     // EDIT HERE: Owner's direct pledge & commitment to customers
     commitmentStatement:
-      "When you call Titan Diesel Logistics, you speak directly with me. My priority is ensuring your generators never run dry, your heavy machinery stays fueled, and your operations experience zero unnecessary downtime through transparent communication and dependable service.",
+      "When you contact HN Fuel Supply, you get direct communication for your fuel needs. Our priority is ensuring your generators never run dry, your vehicles stay fueled, and your operations experience zero unnecessary downtime through transparent communication and dependable service.",
   },
 
   contact: {
     // EDIT HERE: Phone number as displayed on the website
-    displayPhone: "+1 (800) 555-3437",
+    displayPhone: "+92 340 6059180",
     // EDIT HERE: Raw phone number for tel: link (no spaces or hyphens)
-    rawPhone: "+18005553437",
+    rawPhone: "+923406059180",
     // EDIT HERE: WhatsApp display text
-    displayWhatsApp: "+1 (800) 555-3437",
+    displayWhatsApp: "+92 340 9543433",
     // EDIT HERE: WhatsApp raw international digits (no +, no dashes, no spaces)
-    rawWhatsApp: "18005553437",
+    rawWhatsApp: "923409543433",
     // EDIT HERE: Official business contact email
-    email: "contact@titandiesellogistics.com",
+    email: "hnfuelsupply@gmail.com",
     // EDIT HERE: Your service area coverage
     serviceArea: "Greater Metro Area, Industrial Corridors & Surrounding Regional Counties",
     // EDIT HERE: Physical depot or dispatch headquarters
@@ -113,7 +113,7 @@ export const businessConfig: BusinessConfig = {
     {
       id: "diesel-supply",
       title: "Diesel Supply and Delivery",
-      description: "Reliable diesel supply for eligible customers and businesses.",
+      description: "Reliable diesel supply for cars, trucks, buses, and all compatible diesel-powered vehicles and equipment.",
       details: [
         "Direct delivery to fleet vehicles, yards, and on-site fuel tanks",
         "Ultra-low sulfur commercial diesel quality",
@@ -125,7 +125,7 @@ export const businessConfig: BusinessConfig = {
     {
       id: "generator-fuel",
       title: "Generator Fuel Supply",
-      description: "Fuel supply for generators and backup power systems.",
+      description: "Fuel supply for generators, backup power systems, and emergency power equipment.",
       details: [
         "Dedicated refueling for critical backup power facilities",
         "Scheduled generator tank top-ups prior to storm or high-load seasons",
@@ -137,7 +137,7 @@ export const businessConfig: BusinessConfig = {
     {
       id: "agricultural-fuel",
       title: "Agricultural Fuel Supply",
-      description: "Diesel delivery for farms and agricultural machinery.",
+      description: "Diesel delivery for farms, tractors, and all agricultural machinery and equipment.",
       details: [
         "Direct-to-field delivery for tractors, combines, and irrigation pumps",
         "Support during peak planting and harvest periods",
@@ -149,7 +149,7 @@ export const businessConfig: BusinessConfig = {
     {
       id: "industrial-bulk",
       title: "Industrial and Bulk Fuel Supply",
-      description: "Fuel supply for construction sites and industrial operations, subject to availability and applicable requirements.",
+      description: "Fuel supply for construction sites, industrial operations, and heavy machinery.",
       details: [
         "Heavy machinery, earthmoving equipment, and plant machinery fueling",
         "Job site bulk skid tank deliveries",

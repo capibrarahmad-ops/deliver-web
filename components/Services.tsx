@@ -34,7 +34,7 @@ export default function Services() {
             Our Fuel Delivery Services
           </h2>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
-            Dedicated on-site diesel solutions tailored to commercial facilities, standby generators, farm equipment, and heavy industrial machinery.
+            Dedicated on-site diesel solutions for cars, trucks, buses, tractors, generators, construction machinery, and industrial equipment.
           </p>
         </div>
 

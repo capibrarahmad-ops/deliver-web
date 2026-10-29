@@ -1,6 +1,6 @@
 import React from "react";
 import { businessConfig } from "@/data/businessConfig";
-import { Fuel, Phone, MessageCircle, MapPin, Clock } from "lucide-react";
+import { Fuel, Phone, MessageCircle, MapPin, Clock, Mail } from "lucide-react";
 
 export default function Footer() {
   const currentYear = 2026;
@@ -81,6 +81,17 @@ export default function Footer() {
                     <MessageCircle className="w-4 h-4" />
                   </div>
                   <span>WhatsApp: {contact.displayWhatsApp}</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`mailto:${contact.email}`}
+                  className="flex items-center gap-3 hover:text-[#fbbf24] transition-colors group"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-[#0e1b33] flex items-center justify-center text-[#fbbf24] group-hover:bg-[#132442]">
+                    <Mail className="w-4 h-4" />
+                  </div>
+                  <span>{contact.email}</span>
                 </a>
               </li>
               <li className="flex items-start gap-3 pt-1 text-xs text-slate-400">

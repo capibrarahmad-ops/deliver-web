@@ -9,6 +9,7 @@ import {
   Navigation,
   FileCheck2,
   ExternalLink,
+  Mail,
 } from "lucide-react";
 
 export default function Contact() {
@@ -97,6 +98,37 @@ export default function Contact() {
                 >
                   <MessageCircle className="w-4 h-4" />
                   <span>WhatsApp Us</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Email Card */}
+            <div className="bg-[#0b1526] border border-[#1e355b] rounded-2xl p-6 sm:p-7 shadow-xl hover:border-[#f59e0b]/40 transition-colors">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-[#0e1b33] text-[#fbbf24] flex items-center justify-center shrink-0 border border-[#1e355b]">
+                    <Mail className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block">
+                      Email Contact
+                    </span>
+                    <span className="text-lg sm:text-xl font-bold text-white tracking-tight block mt-0.5">
+                      {contact.email}
+                    </span>
+                    <span className="text-xs text-slate-400 block mt-1">
+                      Send detailed inquiries and quotations via email
+                    </span>
+                  </div>
+                </div>
+
+                <a
+                  href={`mailto:${contact.email}`}
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-sm bg-[#0e1b33] hover:bg-[#132442] text-[#fbbf24] border border-[#1e355b] hover:border-[#f59e0b]/50 shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all shrink-0"
+                  id="contact-email-button"
+                >
+                  <Mail className="w-4 h-4" />
+                  <span>Email Us</span>
                 </a>
               </div>
             </div>
