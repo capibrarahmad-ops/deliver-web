@@ -1,6 +1,6 @@
 import React from "react";
 import { businessConfig } from "@/data/businessConfig";
-import { UserCheck, ShieldCheck, Phone, ArrowUpRight, Truck, Fuel, Award, Zap } from "lucide-react";
+import { UserCheck, ShieldCheck, Phone, ArrowUpRight, Truck, Fuel, Award, Zap, Clock } from "lucide-react";
 
 export default function AboutOwner() {
   const { owner, businessName, contact } = businessConfig;
@@ -67,6 +67,19 @@ export default function AboutOwner() {
                   </div>
                   <h4 className="text-sm font-bold text-white mb-1">All Equipment</h4>
                   <p className="text-xs text-slate-400">Cars, trucks, generators</p>
+                </div>
+
+                {/* Service Card 5 - 24/7 Emergency Services */}
+                <div className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors col-span-2">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0">
+                      <Clock className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-white mb-1">24/7 Emergency Services</h4>
+                      <p className="text-xs text-slate-400">Emergency services available 24 hours a day, 7 days a week.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

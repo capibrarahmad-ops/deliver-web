@@ -7,6 +7,7 @@ import {
   MessageSquare,
   HeartHandshake,
   CheckCircle,
+  Award,
 } from "lucide-react";
 
 export default function WhyChooseUs() {
@@ -24,6 +25,8 @@ export default function WhyChooseUs() {
         return <MessageSquare className="w-6 h-6 text-[#fbbf24]" />;
       case "HeartHandshake":
         return <HeartHandshake className="w-6 h-6 text-[#fbbf24]" />;
+      case "Award":
+        return <Award className="w-6 h-6 text-[#fbbf24]" />;
       default:
         return <CheckCircle className="w-6 h-6 text-[#fbbf24]" />;
     }
@@ -46,14 +49,12 @@ export default function WhyChooseUs() {
           </p>
         </div>
 
-        {/* 5 Points Grid */}
+        {/* 6 Points Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {whyChooseUs.map((item, index) => (
             <div
               key={item.title}
-              className={`bg-[#0b1526]/80 border border-[#1e355b] hover:border-[#f59e0b]/40 rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl hover:shadow-black/40 flex flex-col justify-between ${
-                index === 3 || index === 4 ? "lg:col-span-1.5" : ""
-              }`}
+              className="bg-[#0b1526]/80 border border-[#1e355b] hover:border-[#f59e0b]/40 rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl hover:shadow-black/40 flex flex-col justify-between"
             >
               <div>
                 {/* Icon Badge */}

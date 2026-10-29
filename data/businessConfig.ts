@@ -54,7 +54,7 @@ export interface BusinessConfig {
   whyChooseUs: {
     title: string;
     description: string;
-    iconName: 'UserCheck' | 'ShieldCheck' | 'BadgeDollarSign' | 'MessageSquare' | 'HeartHandshake';
+    iconName: 'UserCheck' | 'ShieldCheck' | 'BadgeDollarSign' | 'MessageSquare' | 'HeartHandshake' | 'Award';
   }[];
 }
 
@@ -190,6 +190,12 @@ export const businessConfig: BusinessConfig = {
       description:
         "We prioritize building dependable long-term relationships with businesses and operators through respectful, attentive service.",
       iconName: "HeartHandshake",
+    },
+    {
+      title: "15+ Years of Experience",
+      description:
+        "Over a decade and a half of dedicated service in the fuel delivery industry, bringing expertise and reliability to every customer.",
+      iconName: "Award",
     },
   ],
 };
