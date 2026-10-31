@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
-  allowedDevOrigins: ['192.168.137.1', '127.0.0.1', 'localhost'],
+  allowedDevOrigins: ["192.168.137.1", "127.0.0.1", "localhost"],
   turbopack: {
     rules: {
       "*.css": {
@@ -15,6 +15,14 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/sitemap",
+        destination: "/sitemap.xml",
+      },
+    ];
   },
 };
 
