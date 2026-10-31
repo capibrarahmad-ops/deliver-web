@@ -32,7 +32,7 @@ export default function Navbar() {
           <a
             href="#home"
             className="group flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-[#f59e0b] rounded-lg p-1"
-            aria-label="Titan Diesel Logistics Home"
+            aria-label={`${businessConfig.businessName} Home`}
           >
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#f59e0b] to-[#d97706] flex items-center justify-center text-slate-950 shadow-md shadow-[#f59e0b]/20 group-hover:scale-105 transition-transform duration-200">
               <Fuel className="w-6 h-6 stroke-[2.2]" />

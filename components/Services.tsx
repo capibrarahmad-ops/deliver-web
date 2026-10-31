@@ -49,8 +49,9 @@ export default function Services() {
               <div className="relative h-56 sm:h-64 w-full overflow-hidden bg-slate-900">
                 <Image
                   src={service.image}
-                  alt={service.title}
+                  alt={`HN Fuel Supply - ${service.title} for commercial and industrial operations`}
                   fill
+                  loading="lazy"
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />

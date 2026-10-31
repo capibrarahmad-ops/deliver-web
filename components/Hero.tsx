@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-tanker.jpg"
-          alt="Commercial Diesel Fuel Tanker Truck at Distribution Facility"
+          alt="HN Fuel Supply commercial fuel delivery tanker truck providing on-site diesel and petrol supply"
           fill
           priority
           className="object-cover object-center scale-105 transition-transform duration-1000"
@@ -34,6 +34,7 @@ export default function Hero() {
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15] mb-6">
+            <span className="sr-only">HN Fuel Supply - Fuel Delivery, Diesel Supply &amp; Petrol Supply. </span>
             Diesel Delivered to Your Doorstep <br />
             <span className="bg-gradient-to-r from-[#fbbf24] via-[#f59e0b] to-[#fef08a] bg-clip-text text-transparent">
               — Free Delivery!

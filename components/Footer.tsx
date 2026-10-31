@@ -36,9 +36,9 @@ export default function Footer() {
 
           {/* Quick Navigation Links */}
           <div className="lg:col-span-3 space-y-4">
-            <h4 className="text-sm font-bold text-white uppercase tracking-wider">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider">
               Quick Navigation
-            </h4>
+            </h3>
             <ul className="space-y-2.5 text-sm">
               {navigation.map((item) => (
                 <li key={item.label}>
@@ -55,9 +55,9 @@ export default function Footer() {
 
           {/* Contact Direct Links */}
           <div className="lg:col-span-4 space-y-4">
-            <h4 className="text-sm font-bold text-white uppercase tracking-wider">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider">
               Direct Contact
-            </h4>
+            </h3>
             <ul className="space-y-3 text-sm">
               <li>
                 <a
