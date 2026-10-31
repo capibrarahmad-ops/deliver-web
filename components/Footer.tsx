@@ -4,7 +4,7 @@ import { Fuel, Phone, MessageCircle, MapPin, Clock, Mail } from "lucide-react";
 
 export default function Footer() {
   const currentYear = 2026;
-  const { businessName, tagline, contact, navigation } = businessConfig;
+  const { businessName, contact, navigation } = businessConfig;
 
   return (
     <footer className="bg-[#040810] border-t border-[#1e355b]/60 text-slate-400 pt-16 pb-12">
@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
             
             <p className="text-sm text-slate-300 max-w-sm leading-relaxed">
-              {tagline}. Reliable, scheduled, and on-demand diesel fuel distribution for generators, commercial fleets, farms, and industrial sites.
+              HN Fuel Supply is your reliable commercial fuel supplier providing on-site diesel delivery, commercial fuel delivery services, and 24/7 emergency fuel supply.
             </p>
 
             <div className="pt-2 text-xs text-slate-400 flex items-center gap-2">
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* Bottom Bar: Copyright & Back to Top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            © {currentYear} {businessName}. All rights reserved. Professional Diesel Fuel Delivery.
+            © {currentYear} {businessName}. All rights reserved. Professional Fuel Delivery and Diesel Supply.
           </p>
 
           <a

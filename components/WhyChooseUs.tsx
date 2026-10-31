@@ -42,10 +42,10 @@ export default function WhyChooseUs() {
             <span>Our Principles</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-            Why Choose Our Fuel Delivery
+            Why Choose HN Fuel Supply
           </h2>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
-            Built on transparency, personal accountability, and dependable service you can count on every delivery.
+            As a reliable fuel supplier, HN Fuel Supply provides dependable diesel delivery, transparent communication, and 24/7 emergency fuel supply you can count on.
           </p>
         </div>
 

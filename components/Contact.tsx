@@ -25,10 +25,10 @@ export default function Contact() {
             <span>Direct Communication</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-            Contact the Owner Directly
+            Contact HN Fuel Supply Directly
           </h2>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
-            Have questions about diesel delivery, pricing quotes, or scheduling? Connect directly with {owner.name} through your preferred channel.
+            Have questions about diesel delivery, fuel delivery services, or emergency fuel supply? Connect directly with HN Fuel Supply through your preferred channel.
           </p>
         </div>
 

@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-tanker.jpg"
-          alt="HN Fuel Supply commercial fuel delivery tanker truck providing on-site diesel and petrol supply"
+          alt="HN Fuel Supply commercial fuel supplier tanker truck providing diesel delivery and emergency fuel supply services"
           fill
           priority
           className="object-cover object-center scale-105 transition-transform duration-1000"
@@ -28,13 +28,15 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0e1b33]/90 border border-[#f59e0b]/40 backdrop-blur-md mb-6 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-xs sm:text-sm font-semibold tracking-wide text-slate-200">
-              Direct Fuel Dispatch • Serving {businessConfig.contact.serviceArea.split(",")[0]}
+              HN Fuel Supply Dispatch • Serving {businessConfig.contact.serviceArea.split(",")[0]}
             </span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15] mb-6">
-            <span className="sr-only">HN Fuel Supply - Fuel Delivery, Diesel Supply &amp; Petrol Supply. </span>
+            <span className="block text-[#fbbf24] text-xl sm:text-2xl lg:text-3xl font-bold tracking-normal mb-2 uppercase">
+              HN Fuel Supply
+            </span>
             Diesel Delivered to Your Doorstep <br />
             <span className="bg-gradient-to-r from-[#fbbf24] via-[#f59e0b] to-[#fef08a] bg-clip-text text-transparent">
               — Free Delivery!
@@ -43,7 +45,7 @@ export default function Hero() {
 
           {/* Supporting Text */}
           <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8 max-w-2xl font-normal">
-            Your trusted partner for dependable diesel fuel supply and delivery for cars, trucks, buses, tractors, generators, construction machinery, and industrial equipment.
+            HN Fuel Supply is your reliable commercial fuel supplier for dependable diesel delivery and on-site fuel delivery services. Supplying cars, trucks, buses, tractors, generators, construction machinery, and 24/7 emergency fuel supply.
           </p>
 
           {/* Prominent CTA Buttons */}

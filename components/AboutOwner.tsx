@@ -18,11 +18,11 @@ export default function AboutOwner() {
             <span>About Our Service</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Professional Diesel <br className="hidden sm:block" />
-            <span className="text-[#fbbf24]">Fuel Delivery</span>
+            HN Fuel Supply <br className="hidden sm:block" />
+            <span className="text-[#fbbf24]">Fuel Delivery &amp; Diesel Supply</span>
           </h2>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
-            Reliable, professional fuel distribution with direct accountability and personalized service.
+            Reliable fuel supplier providing direct diesel delivery and specialized fuel delivery services with personalized attention.
           </p>
         </div>
 
@@ -76,8 +76,8 @@ export default function AboutOwner() {
                       <Clock className="w-6 h-6" />
                     </div>
                     <div>
-                      <h4 className="text-sm font-bold text-white mb-1">24/7 Emergency Services</h4>
-                      <p className="text-xs text-slate-400">Emergency services available 24 hours a day, 7 days a week.</p>
+                      <h4 className="text-sm font-bold text-white mb-1">24/7 Emergency Fuel Supply</h4>
+                      <p className="text-xs text-slate-400">Emergency fuel supply services available 24 hours a day, 7 days a week.</p>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export default function AboutOwner() {
                   {businessName}
                 </h3>
                 <p className="text-sm font-medium text-slate-400 mb-6">
-                  Professional Fuel Distribution Services
+                  Professional Fuel Supplier &amp; Delivery Services
                 </p>
               </div>
 

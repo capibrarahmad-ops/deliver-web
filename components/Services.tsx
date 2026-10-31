@@ -31,10 +31,10 @@ export default function Services() {
             <span>Specialized Fuel Logistics</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-            Our Fuel Delivery Services
+            HN Fuel Supply Delivery Services
           </h2>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
-            Dedicated on-site diesel solutions for cars, trucks, buses, tractors, generators, construction machinery, and industrial equipment.
+            Dedicated fuel supplier providing on-site diesel delivery, commercial fuel delivery services, and 24/7 emergency fuel supply for fleets, tractors, generators, and industrial machinery.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export default function Services() {
               <div className="relative h-56 sm:h-64 w-full overflow-hidden bg-slate-900">
                 <Image
                   src={service.image}
-                  alt={`HN Fuel Supply - ${service.title} for commercial and industrial operations`}
+                  alt={`HN Fuel Supply - ${service.title} - Professional fuel supplier and diesel delivery services`}
                   fill
                   loading="lazy"
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
