@@ -112,7 +112,7 @@ export default function Services() {
 
         {/* Disclaimer / Compliance Notice */}
         <div className="mt-12 bg-[#0e1b33]/60 border border-[#1e355b]/60 rounded-xl p-4 sm:p-5 text-center max-w-4xl mx-auto text-xs sm:text-sm text-slate-400 leading-relaxed">
-          <span className="font-semibold text-slate-300">Fuel Supply Notice:</span> Deliveries are scheduled directly based on site access, required fuel volume, and local safety regulations. Please contact the owner directly for current market-rate quotations and delivery scheduling.
+          <span className="font-semibold text-slate-300">Fuel Supply Notice:</span> Deliveries are scheduled directly based on site access, required fuel volume, and local safety regulations. Please <a href="#contact" className="text-[#fbbf24] hover:underline font-semibold">contact HN Fuel Supply directly</a> for current market-rate quotations and on-site delivery scheduling.
         </div>
 
       </div>

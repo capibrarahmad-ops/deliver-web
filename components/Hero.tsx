@@ -71,37 +71,46 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* 3 Small Trust Highlights */}
+          {/* 3 Small Trust Highlights with Internal Links */}
           <div className="pt-6 border-t border-slate-800/80 grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div className="flex items-center gap-3 bg-[#0a1322]/60 backdrop-blur-sm border border-slate-800 px-3.5 py-2.5 rounded-xl">
-              <div className="w-8 h-8 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0">
+            <a
+              href="#services"
+              className="flex items-center gap-3 bg-[#0a1322]/60 hover:bg-[#0e1b33] backdrop-blur-sm border border-slate-800 hover:border-[#f59e0b]/40 px-3.5 py-2.5 rounded-xl transition-all group"
+            >
+              <div className="w-8 h-8 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0 group-hover:scale-105 transition-transform">
                 <Truck className="w-4 h-4" />
               </div>
               <div>
-                <span className="block text-sm font-semibold text-white">Reliable Delivery</span>
+                <span className="block text-sm font-semibold text-white group-hover:text-[#fbbf24] transition-colors">Reliable Delivery</span>
                 <span className="block text-[11px] text-slate-400">Scheduled to your site</span>
               </div>
-            </div>
+            </a>
 
-            <div className="flex items-center gap-3 bg-[#0a1322]/60 backdrop-blur-sm border border-slate-800 px-3.5 py-2.5 rounded-xl">
-              <div className="w-8 h-8 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0">
+            <a
+              href="#about"
+              className="flex items-center gap-3 bg-[#0a1322]/60 hover:bg-[#0e1b33] backdrop-blur-sm border border-slate-800 hover:border-[#f59e0b]/40 px-3.5 py-2.5 rounded-xl transition-all group"
+            >
+              <div className="w-8 h-8 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0 group-hover:scale-105 transition-transform">
                 <ShieldCheck className="w-4 h-4" />
               </div>
               <div>
-                <span className="block text-sm font-semibold text-white">Professional Service</span>
+                <span className="block text-sm font-semibold text-white group-hover:text-[#fbbf24] transition-colors">Professional Service</span>
                 <span className="block text-[11px] text-slate-400">Safe handling standards</span>
               </div>
-            </div>
+            </a>
 
-            <div className="flex items-center gap-3 bg-[#0a1322]/60 backdrop-blur-sm border border-slate-800 px-3.5 py-2.5 rounded-xl">
-              <div className="w-8 h-8 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0">
+            <a
+              href="#contact"
+              className="flex items-center gap-3 bg-[#0a1322]/60 hover:bg-[#0e1b33] backdrop-blur-sm border border-slate-800 hover:border-[#f59e0b]/40 px-3.5 py-2.5 rounded-xl transition-all group"
+            >
+              <div className="w-8 h-8 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0 group-hover:scale-105 transition-transform">
                 <Headphones className="w-4 h-4" />
               </div>
               <div>
-                <span className="block text-sm font-semibold text-white">Customer-Focused Support</span>
+                <span className="block text-sm font-semibold text-white group-hover:text-[#fbbf24] transition-colors">Customer-Focused Support</span>
                 <span className="block text-[11px] text-slate-400">Direct owner liaison</span>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

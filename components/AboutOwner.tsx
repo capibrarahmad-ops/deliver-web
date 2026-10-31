@@ -34,53 +34,53 @@ export default function AboutOwner() {
             <div className="lg:col-span-5">
               <div className="grid grid-cols-2 gap-4">
                 {/* Service Card 1 */}
-                <div className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors">
-                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3">
+                <a href="#services" className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors block group">
+                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3 group-hover:scale-105 transition-transform">
                     <Truck className="w-6 h-6" />
                   </div>
-                  <h4 className="text-sm font-bold text-white mb-1">Free Delivery</h4>
+                  <h4 className="text-sm font-bold text-white mb-1 group-hover:text-[#fbbf24] transition-colors">Free Delivery</h4>
                   <p className="text-xs text-slate-400">Direct to your location</p>
-                </div>
+                </a>
 
                 {/* Service Card 2 */}
-                <div className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors">
-                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3">
+                <a href="#services" className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors block group">
+                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3 group-hover:scale-105 transition-transform">
                     <Fuel className="w-6 h-6" />
                   </div>
-                  <h4 className="text-sm font-bold text-white mb-1">Quality Diesel</h4>
+                  <h4 className="text-sm font-bold text-white mb-1 group-hover:text-[#fbbf24] transition-colors">Quality Diesel</h4>
                   <p className="text-xs text-slate-400">Premium fuel supply</p>
-                </div>
+                </a>
 
                 {/* Service Card 3 */}
-                <div className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors">
-                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3">
+                <a href="#services" className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors block group">
+                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3 group-hover:scale-105 transition-transform">
                     <Award className="w-6 h-6" />
                   </div>
-                  <h4 className="text-sm font-bold text-white mb-1">Professional</h4>
+                  <h4 className="text-sm font-bold text-white mb-1 group-hover:text-[#fbbf24] transition-colors">Professional</h4>
                   <p className="text-xs text-slate-400">Expert service team</p>
-                </div>
+                </a>
 
                 {/* Service Card 4 */}
-                <div className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors">
-                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3">
+                <a href="#services" className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors block group">
+                  <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] mb-3 group-hover:scale-105 transition-transform">
                     <Zap className="w-6 h-6" />
                   </div>
-                  <h4 className="text-sm font-bold text-white mb-1">All Equipment</h4>
+                  <h4 className="text-sm font-bold text-white mb-1 group-hover:text-[#fbbf24] transition-colors">All Equipment</h4>
                   <p className="text-xs text-slate-400">Cars, trucks, generators</p>
-                </div>
+                </a>
 
-                {/* Service Card 5 - 24/7 Emergency Services */}
-                <div className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors col-span-2">
+                {/* Service Card 5 - 24/7 Emergency Fuel Supply */}
+                <a href="#contact" className="bg-[#0e1b33]/70 border border-[#1e355b] rounded-xl p-5 hover:border-[#f59e0b]/50 transition-colors col-span-2 block group">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0">
+                    <div className="w-12 h-12 rounded-lg bg-[#f59e0b]/15 flex items-center justify-center text-[#fbbf24] shrink-0 group-hover:scale-105 transition-transform">
                       <Clock className="w-6 h-6" />
                     </div>
                     <div>
-                      <h4 className="text-sm font-bold text-white mb-1">24/7 Emergency Fuel Supply</h4>
+                      <h4 className="text-sm font-bold text-white mb-1 group-hover:text-[#fbbf24] transition-colors">24/7 Emergency Fuel Supply</h4>
                       <p className="text-xs text-slate-400">Emergency fuel supply services available 24 hours a day, 7 days a week.</p>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
 
@@ -125,10 +125,18 @@ export default function AboutOwner() {
                 </a>
 
                 <a
+                  href="#services"
+                  className="inline-flex items-center gap-1.5 px-5 py-3 rounded-xl font-semibold text-sm text-slate-300 hover:text-white bg-[#0e1b33] hover:bg-[#132442] border border-[#1e355b] transition-colors"
+                >
+                  <span>Our Fuel Services</span>
+                  <ArrowUpRight className="w-4 h-4" />
+                </a>
+
+                <a
                   href="#contact"
                   className="inline-flex items-center gap-1.5 px-5 py-3 rounded-xl font-semibold text-sm text-slate-300 hover:text-white bg-[#0e1b33] hover:bg-[#132442] border border-[#1e355b] transition-colors"
                 >
-                  <span>View Contact Details</span>
+                  <span>Contact Details</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </a>
               </div>

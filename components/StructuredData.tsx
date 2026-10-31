@@ -19,10 +19,19 @@ export default function StructuredData() {
         legalName: businessName,
         url: baseUrl,
         logo: `${baseUrl}/images/hero-tanker.jpg`,
+        image: `${baseUrl}/images/hero-tanker.jpg`,
         description:
           "HN Fuel Supply is a professional fuel supplier providing dependable diesel delivery, on-site fuel delivery services, and 24/7 emergency fuel supply.",
         email: contact.email,
         telephone: contact.rawPhone,
+        knowsAbout: [
+          "Fuel Supply",
+          "Diesel Delivery",
+          "Fuel Delivery Services",
+          "Emergency Fuel Supply",
+          "Generator Fuel Supply",
+          "Commercial Fleet Refueling",
+        ],
         address: {
           "@type": "PostalAddress",
           streetAddress: contact.physicalAddress,
