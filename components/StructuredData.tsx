@@ -3,7 +3,7 @@ import { businessConfig } from "@/data/businessConfig";
 
 export default function StructuredData() {
   const { businessName, contact } = businessConfig;
-  const baseUrl = "https://deliver-web-lovat.vercel.app";
+  const baseUrl = "https://hnfuelsupply.vercel.app";
 
   // Comprehensive Schema.org Graph containing Organization, LocalBusiness, and WebSite schemas
   // Uses strictly genuine business information from the website.
