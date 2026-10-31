@@ -3,7 +3,7 @@ import { businessConfig } from "@/data/businessConfig";
 
 export default function StructuredData() {
   const { businessName, contact } = businessConfig;
-  const baseUrl = "https://hnfuelsupply.com";
+  const baseUrl = "https://deliver-web-lovat.vercel.app";
 
   // 1. Local Business & Professional Fuel Delivery Schema
   const localBusinessSchema = {

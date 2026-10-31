@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const siteUrl = "https://hnfuelsupply.com";
+const siteUrl = "https://deliver-web-lovat.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
